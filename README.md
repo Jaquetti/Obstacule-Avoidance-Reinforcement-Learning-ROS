@@ -9,7 +9,7 @@ For the simulation part, the STAGE simulator was used for the sake of the simpli
 <br/>
 <p align="center">
   <br/>
-  <img src="https://github.com/Jaquetti/Obstacule-Avoidance-Reinforcmente-Learning/blob/main/Enviroment/canvas.png" />
+  <img src="https://github.com/Jaquetti/images_of_all_repositores/blob/main/sketchandreal.png" />
   <br/>
 </p>
 
