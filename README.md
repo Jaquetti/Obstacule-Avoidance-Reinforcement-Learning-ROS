@@ -8,7 +8,6 @@ For the simulation part, the STAGE simulator was used for the sake of the simpli
 
 <br/>
 <p align="center">
-  <figcaption align="center"><b>Diagrama de blocos LIV</b></figcaption>
   <br/>
   <img src="https://github.com/Jaquetti/Obstacule-Avoidance-Reinforcmente-Learning/blob/main/Enviroment/canvas.png" />
   <br/>
@@ -39,8 +38,8 @@ Is it very ugly right?  But it serves as shown in the video: https://www.youtube
     * If the distânce between the most closest point in the past and the current closest point is positve, it reciave a reward because means that the robot is more far of the    obstacule now(All of those distances are obtained by Lidar) 
     * The last one takes in consideration the distance of the path, so if the robot avoid the obstacule and this avoidance result in a point more closes to the destiny, a       reward is received. 
     
-    
-   
 
+As we could se in the video, for about 4-6 epoch the robots learn how to not crash, for more time it train more precisly avoid obstacules. The best part of it is to use this previus knowledge in other robots. If we use the proporcional controler provided by lukovicaleksa its possible to drive easely through the simulated factory, and if a threshold is used to trigger the RL agent based on Lidar minimal distace, our robots arraive at thier destination without crash as shown in the following video 
+https://www.youtube.com/watch?v=_NYJsp3ojq4&t=10s&ab_channel=PEDROFELIPEJAQUETTI
 
 
