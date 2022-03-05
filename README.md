@@ -31,8 +31,8 @@ Is it very ugly right?  But it serves as shown in the video: https://www.youtube
 
 <br/>      
     This 4 areas results in 6 possible states, given a state space of 2^6 possible combinations. But theres some of those states impossible to happend, for example the representation of this state space is a tupple like (right_side, left_side, right_side_zone0,  right_side_zone1, left_side_zone0,  left_side_zone1) but the state (1,0,0,0,1,1) does not exist (I know it was a sheet ideia, i will fix it soon), at least it works, the only problem with this is some blank lines in the Q-table. The agent can take 4 action, the first one is move forward, the second one is move forward with some angular velocity(clockwise), the third one is move foward with some angular velocity(anti-clockwise) and the last one is the stopped action, where there is neither angular or linear velocity. With that information we can figure out that our Q-table has a shape of 64x4. The most important part of the algorith is the reward function. In this case there is 6 rules of reward:
-    * When the robot crashs- Penalty -100 (It hurts a lot, if the robot could feel somethin)
-    * If the robot keep insist in the stopped action- Penalty -0.5
+-  When the robot crashs- Penalty -100 (It hurts a lot, if the robot could feel somethin)
+-  If the robot keep insist in the stopped action- Penalty -0.5
     * If takes the Forward action, it receave a reward because we want our robot allways moving forward, not crazily turning from a side to another 
     * It suffers a penalty of -0.5 if the past action was turn left and the current turn right or vice-versa(Prevents the case discribed before)
     * If the distânce between the most closest point in the past and the current closest point is positve, it reciave a reward because means that the robot is more far of the    obstacule now(All of those distances are obtained by Lidar) 
