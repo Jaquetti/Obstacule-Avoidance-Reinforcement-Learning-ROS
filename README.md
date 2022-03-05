@@ -46,7 +46,7 @@ obstacule now(All of those distances are obtained by Lidar)
 * The last one takes in consideration the distance of the path, so if the robot avoid the obstacule and this avoidance result in a point more closes to the destiny, a       reward is received. 
     
 
-As we could see in the video, for about 4-6 epoch the robots learn how to not crash, for more time it train more precisly avoid obstacules. The best part of it is to use this previus knowledge in other robots. If we use the proporcional controler provided by lukovicaleksa its possible to drive easely through the simulated factory, and if a threshold is used to trigger the RL agent based on Lidar minimal distace, our robots arraive at thier destination without crash as shown in the following video 
+As we could see in the video, for about 4-6 epoch the robots learn how to not crash, if we let it training for more time, it does avoid obstacules better. The best part of it is to use this previus knowledge in other robots. If we use the proporcional controler provided by lukovicaleksa its possible to drive easely through the simulated factory, and if a threshold is used to trigger the RL agent based on Lidar minimal distace, our robots arraive at thier destination without crash as shown in the following video 
 https://www.youtube.com/watch?v=_NYJsp3ojq4&t=10s&ab_channel=PEDROFELIPEJAQUETTI
 
 
