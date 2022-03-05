@@ -15,7 +15,7 @@ For the simulation part, the STAGE simulator was used for the sake of the simpli
 
 <br/>
 
-Is it very ugly right?  But it serves as shown in the video: https://www.youtube.com/watch?v=ydLoVypdTb0&t=3s&ab_channel=PEDROFELIPEJAQUETTI 
+Is it very ugly right?  But it serves, as shown in the video: https://www.youtube.com/watch?v=ydLoVypdTb0&t=3s&ab_channel=PEDROFELIPEJAQUETTI 
 
 
 * How does it work? 
