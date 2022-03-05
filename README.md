@@ -21,17 +21,17 @@ Is it very ugly right? But it serves as shown the video: https://www.youtube.com
 
 * How does it work? 
   
-      It takes the 270° of the Lidar and set apart in the middle resulting in 2 areas, which one of this zones are set apart in midle again, result in 4 parts. As shown in the following figure.
+     It takes the 270° of the Lidar and set apart in the middle resulting in 2 areas, which one of this zones are set apart in midle again, result in 4 parts. As shown in the following figure.
       
-      
-
-
-<br/>
 <p align="center">
-  <figcaption align="center"><b>Diagrama de blocos LIV</b></figcaption>
-  <br/>
+ 
+<br/>
   <img src="https://github.com/Jaquetti/images_of_all_repositores/blob/main/zones_mb.PNG" />
   <br/>
 </p>
 
-<br/>
+<br/>      
+
+
+
+
