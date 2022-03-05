@@ -20,7 +20,7 @@ Is it very ugly right?  But it serves, as shown in the video: https://www.youtub
 
 * How does it work? 
   
-     It takes the 270° of the Lidar and set apart in the middle resulting in 2 areas, which one of this zones are set apart in midle again, result in 4 parts. As shown in the following figure.
+     It takes the 270° of the Lidar and set apart in the middle resulting in 2 areas, which one of those areas are set apart in the midle again, result in 4 parts. As shown in the following figure.
       
 <p align="center">
  
